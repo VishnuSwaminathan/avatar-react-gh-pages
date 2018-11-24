@@ -1,0 +1,30 @@
+.card {
+  border: 5px rgb(255, 221, 221) solid;
+  border-radius: 5px;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  box-shadow: 5px 5px 10px rgb(34, 34, 34);
+  transition: all 0.2s ease-in-out;
+}
+
+.card > .imageContainer {
+  height: 100%;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+}
+
+.card > .imageContainer > img {
+  height: 100%;
+}
+
+.card:active {
+  transform: translate(1px, 1px);
+}
+
+.card:hover {
+  box-shadow: 8px 8px 20px rgb(49, 40, 40);
+  transform: scale(1.05);
+  cursor: pointer;
+}
