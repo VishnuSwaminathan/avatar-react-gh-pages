@@ -5,6 +5,7 @@ import Nav from './components/NavBar';
 import PictureCards from './components/PictureCards';
 import Title from './components/Title';
 import Wrapper from './components/Wrapper';
+require('gh-pages');
 
 function shufflePictures(pictureArray) {
   for (var i = pictureArray.length - 1; i > 0; i--) {
