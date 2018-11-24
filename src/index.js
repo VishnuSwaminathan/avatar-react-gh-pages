@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+var ghpages = require('gh-pages');
+ghpages.publish('dist', function(err) {});
 
 ReactDOM.hydrate(<App />, document.getElementById('root'));
 
